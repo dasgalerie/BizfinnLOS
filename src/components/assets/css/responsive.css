@@ -1,0 +1,639 @@
+@media screen and (max-width: 1600px) {
+  .auth_second_col_main .borrower_content {
+    margin-top: 160px;
+  }
+  .borrower_Profile_m_height{
+    min-height: 600px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .auth_second_col_main_outer {
+    margin-right: 0;
+  }
+  .commaon_tabs_main_section .nav {
+    overflow-x: auto;
+    flex-wrap: initial;
+  }
+  .auth_second_col_main .content {
+    margin-top: 150px;
+  }
+  .auth_second_col_main .borrower_content {
+    margin-top: 200px;
+  }
+  .dashboard_boxes_single{
+    min-height: 130px;
+  }
+  .dashboard_boxes_single h2{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .auth_banner_img {
+    background-color: #f1f1f1;
+  }
+  .auth_content_div p {
+    width: 75%;
+  }
+  .Personal_Details_div_main .form_input_box {
+    margin-bottom: 24px;
+  }
+
+  .loan_approve_message_btn .login_register_btn_div {
+    margin-bottom: 20px;
+  }
+  .profile_right_border {
+    border-right: 0;
+    /* border-bottom: 2px solid #393939; */
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+  }
+  .profile_right_border:last-child {
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .borrower_Profile_m_height{
+    min-height: auto;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .auth_second_col_main .content {
+    width: 90%;
+  }
+  .auth_second_col_main .borrower_content {
+    margin-top: 100px;
+  }
+  .auth_content_div p {
+    width: 90%;
+  }
+  .login_register_btn {
+    width: auto;
+  }
+  /* .commaon_table tr th {
+    min-width: 140px;
+  }
+  .commaon_table tr th:first-child {
+    min-width: 120px;
+  }
+  .commaon_table tr th:nth-child(2) {
+    min-width: 170px;
+  }
+  .commaon_table tr th:nth-child(3) {
+    min-width: 200px;
+  }
+
+  .commaon_table tr th:nth-child(4) {
+    min-width: 100px;
+  }
+
+  .commaon_table tr th:nth-child(5) {
+    min-width: 100px;
+  } */
+}
+/* dashboard_toggle */
+@media screen and (max-width: 992px) {
+  .menu_toggle_btn {
+    display: block;
+  }
+
+  .SideContent_div_coll .menu_close_btn {
+    display: block;
+    transition: 0.3s all ease-in;
+  }
+  .sidebar_div_coll {
+    width: 320px;
+    position: absolute;
+    left: 0;
+  }
+  .sidebar_div {
+    position: absolute;
+    left: -320px;
+  }
+  .header_main_div {
+    padding-left: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+  }
+  .Update_Share_Details_btns_div{
+    margin: 10px 0;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .auth_banner_img {
+    background-image: none;
+    height: auto;
+  }
+  .auth_content_col {
+    height: auto;
+  }
+  .auth_content_div {
+    position: initial;
+  }
+  .auth_second_col_main h2 {
+    font-size: 16px;
+  }
+  .auth_content_div p {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 10px;
+  }
+  .auth_content_div h1,
+  .auth_content_div h1 span {
+    font-size: 20px;
+  }
+  .auth_main_section .logo {
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 105px;
+  }
+  .form_input_box {
+    font-size: 12px;
+    padding: 8px;
+  }
+  .form_input_box::placeholder {
+    font-size: 12px;
+  }
+  .auth_content_div h1 {
+    padding-top: 90px;
+  }
+  .auth_second_col_main_outer {
+    margin-bottom: 20px;
+    height: auto;
+    max-width: 50%;
+    margin: auto;
+  }
+  .auth_second_col_main {
+    height: auto;
+  }
+  .auth_second_col_main .content {
+    margin-top: 110px;
+  }
+  .login_register_btn {
+    height: auto;
+    padding: 12px 36px;
+    font-size: 16px;
+  }
+  .error_msg p {
+    font-size: 12px;
+  }
+  /* .error_msg {
+    margin-top: 30px;
+  } */
+  .forget_password a {
+    font-size: 14px;
+  }
+  .header_search_box input {
+    min-width: auto;
+  }
+
+  .upload_img_btn {
+    width: 44px;
+    height: 44px;
+  }
+  .upload_img_btn img {
+    width: 24px;
+    height: 24px;
+  }
+  .notification_div_single {
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  .notification_div_single h3 {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .notification_div_single p,
+  .notification_div_single .date {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .tabs_main_section {
+    margin-top: 24px;
+  }
+  .dashboard_sidebar_main_div{
+    position: fixed;
+    width: 250px;
+  }
+  .loan_approve_message_btn_mobile{
+    display: block;
+  }
+  .loan_approve_message_btn_dektop{
+    display: none;
+  }
+  .loan_approve_message_btn .login_register_btn_div{
+    justify-content: space-between;
+  }
+  .header_main_div .active{
+    width: 30px;
+    height: 30px;
+  }
+  .dashboard_add_new_btn button{
+    width: 132px;
+    height: 38px;
+    font-size: 12px;
+    padding: 0;
+  }
+  .notification_div_single{
+    flex-direction: column;
+  }
+  .notification_delete_btn_div {
+    align-items: flex-end;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.notification_div_single .date{
+  margin-bottom: 0;
+}
+.notification_div_single h3{
+  margin-bottom: 8px;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .date_filter_box .form-control {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px;
+    padding-right: 30px;
+    
+  }
+ 
+  /* .date_filter_box::before {
+    width: 14px;
+    height: 14px;
+  } */
+  .custom_profile_upload_btn {
+    padding: 0;
+  }
+  .back_btn_filter_main img {
+    margin-right: 8px;
+  }
+  .page_heading_div h2 {
+    margin-right: 8px;
+  }
+
+  .header_profile_btn span {
+    display: none;
+  }
+  .header_right_side_div {
+    padding-left: 10px;
+  }
+  .border_right {
+    padding-left: 10px;
+  }
+  .side_content_main_box {
+    padding: 16px;
+  }
+  .white_logo {
+    width: 70px;
+  }
+  .sidebar_div_coll {
+    width: 250px;
+  }
+  .sidebar_link {
+    padding-left: 30px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+  }
+  .sidebar_link,
+  .signout_btn_div a {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .sidebar_link_icon {
+    padding-right: 15px;
+    min-width: 24px;
+    width: auto;
+  }
+  .SideContent_div_coll .menu_close_btn {
+    left: 190px;
+    position: fixed;
+  }
+  .menu_close_btn {
+    top: 5px;
+  }
+  .dashboard_boxes_main_section {
+    margin-top: 30px;
+  }
+  .page_heading_div h2 {
+    font-size: 18px;
+  }
+  .profile_bg_main .side_content_main_box,
+  .profile_details_main_section {
+    padding: 16px;
+  }
+  .profile_details_main_section {
+    padding: 16px 16px;
+  }
+  .margin_top_30 {
+    margin-top: 30px;
+  }
+  .dashboard_add_new_btn .upload_img_btn_main h2 {
+    font-size: 12px;
+  }
+  .dashboard_add_new_btn .upload_img_btn_main .upload_img_btn {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+  }
+  .dashboard_add_new_btn .upload_img_btn_main .upload_img_btn img {
+    width: 14px;
+  }
+  .Personal_Details_div_main .form_input_box {
+    margin-bottom: 16px;
+  }
+
+  .upload_img_btn_main h2 {
+    min-height: auto;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .width_60,
+  .width_70,
+  .width_80,
+  .width_90,
+  .width_100 {
+    width: 100%;
+  }
+
+  .Personal_Details_div_main h3,
+  .profile_details_main_section h3,
+  .profile_details_main_section h3 span {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .margin_top_space {
+    margin-top: 20px;
+  }
+  .case_query_reject_btn a {
+    padding: 10px;
+  }
+  .Loan_Approved_Status_main {
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .form_both_btn_div_main .create_new {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  .list_heading {
+    width: 132px;
+    height: 38px;
+    /* padding: 20px; */
+    font-size: 12px;
+  }
+  .dashboard_add_new_btn a {
+    width: 132px;
+    height: 38px;
+    font-size: 12px;
+    padding: 0;
+  }
+  .two_col_right_gap {
+    padding-right: 0px;
+  }
+  .commaon_table tr th {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 12px 4px;
+    padding-left: 8px;
+  }
+  .commaon_table tr td {
+    font-size: 12px;
+    padding: 12px 4px;
+    padding-left: 8px;
+  }
+  .table_edit_delete_btn {
+    font-size: 12px;
+    padding: 12px 4px;
+    /* padding-left: 8px; */
+  }
+
+  .Update_Share_Details_btns_div a {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .commaon_tabs_main_section .commaon_tabs_main .nav-item button {
+    /* padding: 13px 25px; */
+    font-size: 12px;
+    font-weight: 600;
+    width: 132px;
+    height: 38px;
+    width: 180px;
+    height: 38px;
+  }
+  .case_query_reject_btn_main_flex {
+    flex-direction: column-reverse;
+  }
+
+  .case_detail_single_detail p,
+  .query_details_steps_inner_main h5,
+  .query_details_steps_inner_main p {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .case_detail_single_detail h2,
+  .case_query_reject_btn a,
+  .loan_approve_message_btn .login_register_btn_div .login_register_btn {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .query_details_steps_inner_main h4 {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .query_details_steps_main {
+    margin-top: 20px;
+  }
+  .loan_approve_message_btn .login_register_btn_div .login_register_btn {
+    margin-right: 0;
+    padding: 12px 24px;
+  }
+  .finanicial_details_single {
+    flex-direction: column;
+    margin-right: 0;
+    align-items: flex-start;
+  }
+  .finanicial_details_single .upload-btn-wrapper {
+    width: 100%;
+  }
+  .Incomplete_complete_status {
+    margin-top: 10px;
+    margin-left: 0;
+    display: flex;
+  }
+  .Incomplete_complete_status button{
+    margin-right: 10px;
+  }
+  .full_width_bg_main .table_main_section {
+    padding: 0;
+    margin: 0 16px;
+  }
+  .moadal_body p {
+    font-size: 12px;
+  }
+  .custom_file_upload_main {
+    font-size: 12px;
+    line-height: normal;
+  }
+  .custom_profile_upload_btn .file_upload_flex span {
+    font-size: 12px;
+    margin-top: 8px;
+  }
+  .add_more_btn {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  .case_query_reject_btn a {
+    margin-left: 0;
+    margin-right: 20px;
+    padding: 0;
+  }
+  .case_query_reject_btn {
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .Incomplete_complete_status button {
+    font-size: 12px;
+  }
+  .query_details_Loan_status_div h3,
+  .Loan_Approved_Status_main p {
+    font-size: 12px;
+  }
+  .Loan_Approved_Status_main label {
+    font-size: 12px;
+    /* margin-top: -5px; */
+  }
+  .Loan_Approved_Status_main {
+    justify-content: left;
+  }
+  .Upload_Doc_input .custom_file_upload_main {
+    width: 100%;
+  }
+
+  .register_checkbox label {
+    font-size: 12px;
+    line-height: inherit;
+  }
+  .register_checkbox label {
+    margin-left: 8px;
+  }
+  .login_register_btn {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  .loan_status_label{
+    display: flex;
+    align-items: center;
+  }
+  .case_detail_content_main_section .profile_details_main_section{
+    padding: 0 12px ;
+  }
+ .add_new_cases_main .profile_details_main_section{
+    padding: 12px 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header_badge{
+    top: 1px;
+    width: 12px;
+    height: 12px;
+    font-size: 8px;
+    right: 0;
+  }
+  .auth_second_col_main_outer {
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .back_btn_filter_main {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .date_filter_box .form-control {
+    margin-top: 20px;
+  }
+  .page_heading_div {
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 500px) {
+  .border_right a img {
+    min-width: 24px;
+  }
+  .header_profile_btn img {
+    min-width: 24px;
+    min-height: 24px;
+  }
+  .header_right_side_div {
+    /* height: 50px; */
+    padding: 8px;
+    padding-right: 16px;
+  }
+  .header_main_div {
+    /* height: 50px; */
+  }
+  .menu_toggle_btn {
+    width: 30px;
+    height: 30px;
+    top: 7px;
+    left: 16px;
+  }
+  .menu_toggle_btn .icon {
+    font-size: 20px;
+  }
+
+  .header_main_div {
+    padding-left: 54px;
+  }
+  .header_search_box img {
+    width: 24px;
+  }
+  .header_search_box input {
+    margin-left: 5px;
+    /* border: 1px solid #6e6e6e; */
+    padding: 2px 5px;
+    line-height: 24px;
+    margin-right: 10px;
+  }
+  .header_search_box input,
+  .header_search_box input::placeholder {
+    font-size: 13px;
+  }
+
+  .border_right {
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 26px;
+  }
+  .header_profile_btn img {
+    width: 24px;
+    padding: 1px;
+  }
+
+  .header_profile_btn {
+    margin-left: 10px;
+  }
+  /* .page_heading_div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .dashboard_add_new_btn {
+    margin-top: 12px;
+  } */
+}
